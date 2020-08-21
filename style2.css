@@ -1,0 +1,67 @@
+body{
+    margin: 100px;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-image:url(fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#titulo{
+    text-align: center;
+    color: black;
+    background-color: ghostwhite;
+}
+
+.form-principal{
+    width: 98%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.titulo{
+    background: #14B76E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 7px;
+    border-bottom: 5px solid black;
+}
+
+.contenedor{
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.btn-enviar{
+    background: dodgerblue;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+}
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+.input-75{
+ width: 75%;   
+}
+.input-10{
+ width: 15%;   
+}

@@ -1,0 +1,91 @@
+body{
+    margin: 100px;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-image:url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#titulo{
+    text-align: center;
+    color: black;
+    background-color: ghostwhite;
+}
+
+.form-principal{
+    width: 98%;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.titulo{
+    background: #14B76E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 7px;
+    border-bottom: 5px solid black;
+}
+
+.contenedor{
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: center;   
+}
+
+.btn-enviar{
+    background: dodgerblue;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+}
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+.contenedor1{
+    padding: 15px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.contenedor-btn{
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.input-35{
+ width: 35%;   
+}
+.input-65{
+    width: 55%;
+}
+
+select{
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
